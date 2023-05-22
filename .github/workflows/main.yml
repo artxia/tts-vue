@@ -47,5 +47,5 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: tts-vue
-          path: release/*/*
+          path: release/*/*.dmg
           retention-days: 30
